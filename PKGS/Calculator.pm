@@ -8,4 +8,9 @@ sub sum(){
 	return $a + $b;
 }
 
+sub rest(){
+	my ($self, $a, $b) = @_;
+	return $a - $b;
+}
+
 1;
